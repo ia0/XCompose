@@ -116,7 +116,8 @@ symbols = concat
   , turnstyles ]
 
 accents :: Assocs
-accents = concat
+accents =
+  [("oe", "œ"), ("OE", "Œ")] ++ concat
   [ f 'a' 'á' 'à' 'â' 'ä' 'ã' 'å' ' '
   , f 'c' 'ć' ' ' ' ' ' ' ' ' ' ' 'ç'
   , f 'e' 'é' 'è' 'ê' 'ë' ' ' ' ' ' '
@@ -336,6 +337,7 @@ misc =
   -- , ("Cut", "✂")
   -- , ("Pen", "✎")
   -- , ("Tick", "✓")
+  , ("<3", "♥")
   , ("oo", "°")
   , ("[ ]", "☐")
   , ("[Tick]", "☑") ]
