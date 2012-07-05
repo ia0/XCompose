@@ -435,7 +435,7 @@ math_alphanum = concat
       , l     "theta"
       , s 'i' "iota"
       , s 'k' "kappa"
-      , s 'l' "lamda"
+      , s 'l' "lambda"
       , s 'm' "mu"
       , s 'v' "nu"
       , s 'x' "xi"
