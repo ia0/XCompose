@@ -5,7 +5,7 @@ import Data.Map (Map)
 import qualified Data.Map as Map
 import Data.Maybe
 
-data (Ord k) => Trie k a
+data Trie k a
   = Leaf a
   | Node (Map k (Trie k a))
   deriving (Read, Show)
